@@ -1,5 +1,13 @@
 # print.R
-# Print method for protein_mods objects
+#
+#' print.R
+#' Print method for protein_mods objects
+#' 
+#' @param x A `protein_mods` object, which is a data frame with the amino acid sequences and modifications.
+#' @param ... Other arguments passed to or from `print`
+#' @return A printed out list of protein sequences and where the mutation occurs
+#' @export
+#' @method print protein_mods
 
 print.protein_mods <- function(x, ...)
 {
